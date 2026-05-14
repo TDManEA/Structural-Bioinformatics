@@ -4,7 +4,7 @@
 
 This project implements supervised machine learning models to predict DNA binding affinity from sequence data. The workflow compares different feature representations, including 1-mer encoding, 2-mer encoding, and DNA shape features, using ridge regression with cross-validation.
 
-All core logic is implemented in modular Python scripts (`src/`), and the notebook (`machine_learning.ipynb`) serves as a clean orchestration layer.
+All core logic is implemented in modular Python scripts (`src/`), and the notebook (`machine_learning_notebook.ipynb`) serves as a clean orchestration layer.
 
 ---
 
@@ -23,7 +23,7 @@ assignment_4_machine_learning/
 │   ├── features.py
 │   ├── model.py
 │   └── plots.py
-├── machine_learning.ipynb
+├── machine_learning_notebook.ipynb
 ├── environment.yml
 └── README.md
 ```
@@ -58,7 +58,7 @@ No additional PATH configuration is required.
 
 ### Run full analysis
 
-1. Open `machine_learning.ipynb`
+1. Open `machine_learning_notebook.ipynb`
 2. Select kernel: **Python (qbio481)**
 3. Restart kernel
 4. Run all cells
